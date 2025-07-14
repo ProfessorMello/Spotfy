@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+.main {
+  flex: 1;
+}
+
+#root {
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+@theme {
+  /* Cores */
+  --color-verde-50: hsl(141deg 75% 90%);
+  --color-verde-100: hsl(141deg 75% 85%);
+  --color-verde-200: hsl(141deg 75% 70%);
+  --color-verde-300: hsl(141deg 75% 60%);
+  --color-verde-400: hsl(141deg 75% 50%);
+  --color-verde-500: hsl(141deg 75% 45%);
+  --color-verde-600: hsl(141deg 75% 35%);
+  --color-verde-700: hsl(141deg 75% 25%);
+  --color-verde-800: hsl(141deg 75% 15%);
+  --color-verde-900: hsl(141deg 75% 10%);
+  --color-verde-950: hsl(141deg 75% 5%);
+  --color-verde-1000: hsl(141deg 75% 2.5%);
+  --color-verde-1000-25: hsl(141deg 75% 2.5% / 25%);
+  /* Fontes */
+  --font-spotify: "Montserrat", sans-serif;
+  --font-weight-sigle-item-title: 600;
+  /* Spaçamento */
+  --spacing-single-item: 25px;
+  --spacing-image-artist-w: 140px;
+  --spacing-image-artist-h: 140px;
+  --spacing-spotify: 7.5px;
+  --spacing-icone: 100%;
+  /* Textos */
+  --text-spotify-16: 18px;
+  --text-icone-play: 50px;
+  /* Outros */
+  --border-radius-spotify: 15px;
+}
+
+/*  className="grid max-w-7xl grid-cols-[repeat(auto-fit,minmax(225px,1fr))]" */
