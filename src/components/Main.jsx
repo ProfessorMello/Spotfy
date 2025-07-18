@@ -1,7 +1,6 @@
 import React from "react";
-import Artistas from "./Artistas";
-import ListaArtistas from "./ListaArtistas";
-import Musicas from "./Musicas";
+import Artistas from "./Artistas/Artistas";
+import Musicas from "./Musicas/Musicas";
 
 const Main = () => {
   return (

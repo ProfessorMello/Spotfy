@@ -1,4 +1,12 @@
-const artistArray = [
+export const artistArray = [
+  {
+    id: 0,
+    image:
+      "https://akamai.sscdn.co/uploadfile/letras/fotos/5/d/d/9/5dd92d774fe8e768d375a34759f94599.jpg",
+    name: "Alan Walker",
+    banner:
+      "https://radionano.com/wp-content/uploads/Article-Banner-Alan-Walker.png.webp",
+  },
   {
     id: 1,
     image: "https://i.scdn.co/image/ab676161000051744dcd8a3bff84cd7703892cf4",

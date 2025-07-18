@@ -1,4 +1,14 @@
-const songsArray = [
+export const songsArray = [
+  {
+    image:
+      "https://upload.wikimedia.org/wikipedia/pt/f/f6/Capa_de_Faded_%28Alan_Walker%29.png",
+    name: "Faded",
+    duration: "2:30",
+    artist: "Alan Walker",
+    audio:
+      "https://jornada-fullstack.s3.us-east-2.amazonaws.com/ultima-saudade.mp3",
+    id: 0,
+  },
   {
     image: "https://i.scdn.co/image/ab67616d00001e022774b00531d558bc19e12a24",
     name: "Última Saudade - Ao Vivo",
